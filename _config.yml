@@ -25,10 +25,10 @@ description: # >- # ignore linebreaks until "baseurl:"
   // Enthusiastic software developer focused on TDD and CI/CD
   // Open source and GNU/Linux evangelist
   // Interested in physics and electrical engineering
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/portfolio" # the subpath of your site, e.g. /blog
+url: "https://schwefelsaeure.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-github_username:  schwefelsaeure
+github_username:  Schwefelsaeure
 
 # Build settings
 # theme: minima
