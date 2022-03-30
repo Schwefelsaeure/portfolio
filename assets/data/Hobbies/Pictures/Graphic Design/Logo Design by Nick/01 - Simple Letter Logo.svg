@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="01 - Simple Letter Logo.svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient873">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="0"
+         id="stop869" />
+      <stop
+         style="stop-color:#ffcb00;stop-opacity:1"
+         offset="1"
+         id="stop871" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient873"
+       id="linearGradient875"
+       x1="125.28906"
+       y1="320.97266"
+       x2="455.99805"
+       y2="320.97266"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient873"
+       id="linearGradient883"
+       x1="361.50977"
+       y1="340.4043"
+       x2="119.08931"
+       y2="310.81073"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.5"
+     inkscape:cx="283.30915"
+     inkscape:cy="865.93193"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:window-width="956"
+     inkscape:window-height="1015"
+     inkscape:window-x="960"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="opacity:1;stroke-width:1.06052756;fill-opacity:1;fill:url(#linearGradient883)"
+       d="M 267.02148 239.42773 A 188.97637 188.97637 0 0 0 78.044922 428.4043 A 188.97637 188.97637 0 0 0 267.02148 617.38086 A 188.97637 188.97637 0 0 0 455.99805 428.4043 A 188.97637 188.97637 0 0 0 267.02148 239.42773 z M 267.02148 333.91602 A 94.488189 94.488189 0 0 1 361.50977 428.4043 A 94.488189 94.488189 0 0 1 267.02148 522.89258 A 94.488189 94.488189 0 0 1 172.5332 428.4043 A 94.488189 94.488189 0 0 1 267.02148 333.91602 z "
+       transform="scale(0.26458333)"
+       id="path819" />
+    <path
+       style="opacity:1;stroke-width:0.79539567"
+       d="m 267.02148,333.91602 a 94.488188,94.488188 0 0 0 -8.06445,0.40429 141.73228,141.73228 0 0 1 8.06445,-0.40429 z"
+       transform="scale(0.26458333)"
+       id="path850" />
+    <path
+       style="opacity:1;stroke-width:0.79539567;fill:url(#linearGradient875);stroke:none;fill-opacity:1"
+       d="M 455.99805 24.564453 C 403.65159 24.564453 361.50977 66.706293 361.50977 119.05273 L 361.50977 428.4043 A 94.488186 94.488186 0 0 1 343.84375 483.28516 L 343.8418 483.28711 A 94.488187 94.488187 0 0 1 337.98242 490.67969 A 94.488187 94.488187 0 0 1 337.97461 490.68945 A 94.488186 94.488186 0 0 1 337.94141 490.72461 A 94.488187 94.488187 0 0 1 331.44141 497.42578 A 94.488186 94.488186 0 0 1 331.21484 497.62305 A 94.488187 94.488187 0 0 1 324.25391 503.49414 A 94.488186 94.488186 0 0 1 319.41016 506.95898 A 94.488186 94.488186 0 0 1 267.02148 522.89258 A 94.488186 94.488186 0 0 1 172.5332 428.4043 A 94.488186 94.488186 0 0 1 258.95703 334.32031 A 141.73228 141.73228 0 0 0 125.28906 475.64844 A 141.73228 141.73228 0 0 0 267.02148 617.38086 A 141.73228 141.73228 0 0 0 287.08203 615.7793 L 287.31445 616.2207 A 188.97637 188.97637 0 0 0 455.99609 428.45898 L 455.99805 428.45898 L 455.99805 24.564453 z "
+       transform="scale(0.26458333)"
+       id="path848" />
+  </g>
+</svg>

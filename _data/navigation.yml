@@ -1,0 +1,15 @@
+- title: CV
+  url: /cv/
+
+- title: Projects
+  url: /projects/
+
+- title: Hobbies
+  url: /hobbies/
+  sublinks:
+    - title: Piano
+      url: /hobbies/piano/
+    - title: Mountainbiking
+      url: /hobbies/mountainbiking
+    - title: Graphic Design
+      url: /hobbies/graphic-design

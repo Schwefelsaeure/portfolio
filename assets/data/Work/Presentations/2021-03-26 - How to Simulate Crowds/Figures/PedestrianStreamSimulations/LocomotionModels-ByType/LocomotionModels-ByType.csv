@@ -1,0 +1,26 @@
+Type,BibTeX Key,Name,Abbreviation
+micro,helbing-1995,Social Force Model,SFM
+micro,gipps-1985,Cellular Automaton,CA
+micro,seitz-2012,Optimal Steps Model,OSM
+meso,kneidl-2013b,,
+meso,bellomo-2015,,
+meso,bellomo-2012,,
+meso,laemmel-2014,,
+meso,helbing-2000b,,
+meso,teknomo-2012,,
+meso,tordeux-2018,,
+meso,teknomo-2008,,
+meso,shi-2018,,
+meso,biedermann-2016,,
+meso,borrmann-2012,,
+macro,hoogendoorn-2002,,
+macro,helbing-1992,,
+macro,henderson-1974,,
+macro,hughes-2000,,
+macro,bruno-2011,,
+macro,colombo-2010,,
+macro,daamen-2005,,
+micro,reynolds-1999,Reynolds Steering Behaviors,RSM
+micro,berg-2011,Obstacle Velocity Model,ORCA
+micro,dietrich-2014,Gradient Navigation Model,GNM
+micro,seitz-2016c,Behavioural Heuristics Model,BHM

@@ -1,0 +1,5 @@
+java -jar 
+vadere-console.jar \
+scenario-run \
+--scenario-file \
+example.scenario

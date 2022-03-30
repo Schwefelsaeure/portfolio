@@ -1,0 +1,62 @@
+<style>
+    .image-gallery { overflow: auto; margin-left: -1%!important; }
+    .image-gallery .gallery-element { float: left; margin: 0 0 1% 1%; text-align: center; text-decoration: none!important; cursor: pointer; }
+    .image-gallery .gallery-element img { width: 100%; display: block; }
+    .image-gallery .gallery-element span { display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 3px 0; }
+</style>
+
+<!-- Store all images in the requested folder into a list and process this list later on -->
+{% assign images = "" | split: ',' %}
+{{ images }}
+{% for file in site.static_files %}
+    {% if file.path contains include.folder %}
+        {% if file.extname == include.extname %}
+            {% assign images = images | push: file %}
+        {% endif %}
+    {% endif %}
+{% endfor %}
+
+<!-- The image grid with clickable thumbnails -->
+<div class="image-gallery">
+{% assign currentElement = 0 %}
+{% for image in images %}
+
+    {% assign currentElement = currentElement | plus: 1 %}
+    {% assign filenameparts = image.path | split: "/" %}
+    {% assign filename = filenameparts | last | replace: image.extname,"" %}
+
+    <div class="gallery-element hover-shadow" style="width: {{ include.image_width_in_percentage | default: 30 }}%;" onclick="openModal();currentSlide({{currentElement}})">
+        <img src="{{ image.path }}" alt="{{ filename }}" />
+        {% if include.captions %}
+            <span>{{ filename }}</span>
+        {% endif %}
+    </div>
+{% endfor %}
+</div>
+
+<!-- The maximized modal/lightbox -->
+<div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+
+    {% assign currentElement = 0 %}
+    {% for image in images %}
+        {% assign currentElement = currentElement | plus: 1 %}
+
+        <div class="mySlides">
+            <div class="numbertext">{{currentElement}} / {{images.size}}</div>
+            <img src="{{ image.path }}" style="width:100%">
+        </div>
+    {% endfor %}
+
+        <!-- Next/previous controls -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Caption text -->
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+    </div>
+</div>
