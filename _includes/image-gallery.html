@@ -26,7 +26,7 @@
     {% assign filename = filenameparts | last | replace: image.extname,"" %}
 
     <div class="gallery-element hover-shadow" style="width: {{ include.image_width_in_percentage | default: 30 }}%;" onclick="openModal();currentSlide({{currentElement}})">
-        <img src="{{ image.path }}" alt="{{ filename }}" />
+        <img src="{{ image.path | relative_url }}" alt="{{ filename }}" />
         {% if include.captions %}
             <span>{{ filename }}</span>
         {% endif %}
@@ -45,7 +45,7 @@
 
         <div class="mySlides">
             <div class="numbertext">{{currentElement}} / {{images.size}}</div>
-            <img src="{{ image.path }}" style="width:100%">
+            <img src="{{ image.path | relative_url }}" style="width:100%">
         </div>
     {% endfor %}
 

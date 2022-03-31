@@ -27,7 +27,7 @@ layout: default
             <figcaption>{{ audio_file.basename }}</figcaption>
             <audio
                 controls
-                src="{{ audio_file.path }}"">
+                src="{{ audio_file.path | relative_url }}">
                     Your browser does not support the
                     <code>audio</code> element.
             </audio>
