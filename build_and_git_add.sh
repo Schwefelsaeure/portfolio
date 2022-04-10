@@ -11,3 +11,4 @@ git checkout site
 rm -fr *
 mv -t . ../_site/*
 git add -A .
+rm -r ../_site
