@@ -88,13 +88,13 @@ table td { border: 1px solid #e8e8e8; }
 .navbar { overflow: hidden; }
 
 /* Links inside the navbar */
-.navbar a { float: left; font-size: 16px; text-align: center; padding: 14px 16px; text-decoration: none; }
+.navbar a { color: #2a7ae2; text-decoration: none; font-size: 16px; text-align: center; padding: 14px 16px; float: left; }
 
 /* The dropdown container */
 .dropdown { float: left; overflow: hidden; }
 
 /* Dropdown button */
-.dropdown .dropbtn { font-size: 16px; border: none; outline: none; padding: 17px 16px; /* FIXME: We have to add 3px to the vertical alignment because Jekyll styles buttons in a weird way so that the vertical height is a bit small than expected. */ background-color: inherit; font-family: inherit; /* Important for vertical align on mobile phones */ margin: 0; /* Important for vertical align on mobile phones */ }
+.dropdown .dropbtn { color: #2a7ae2; text-decoration: none; font-size: 16px; text-align: center; border: none; outline: none; padding: 17px 16px; /* FIXME: We have to add 3px to the vertical alignment because Jekyll styles buttons in a weird way so that the vertical height is a bit small than expected. */ background-color: inherit; font-family: inherit; /* Important for vertical align on mobile phones */ margin: 0; /* Important for vertical align on mobile phones */ }
 
 /* Dropdown content (hidden by default) */
 .dropdown-content { display: none; position: absolute; min-width: 160px; background-color: white; box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); }
