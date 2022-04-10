@@ -35,11 +35,12 @@
 
 /* Links inside the navbar */
 .navbar a {
-  float: left;
+  color: $brand-color;
+  text-decoration: none;
   font-size: 16px;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
+  float: left;
 }
 
 /* The dropdown container */
@@ -50,7 +51,10 @@
 
 /* Dropdown button */
 .dropdown .dropbtn {
+  color: $brand-color;
+  text-decoration: none;
   font-size: 16px;
+  text-align: center;
   border: none;
   outline: none;
   padding: 17px 16px; /* FIXME: We have to add 3px to the vertical alignment because Jekyll styles buttons in a weird way so that the vertical height is a bit small than expected. */
