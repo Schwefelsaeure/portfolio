@@ -90,6 +90,9 @@ table td { border: 1px solid #e8e8e8; }
 /* Links inside the navbar */
 .navbar a { color: #2a7ae2; text-decoration: none; font-size: 16px; text-align: center; padding: 14px 16px; float: left; }
 
+/* Add a grey background color to dropdown links on hover */
+.navbar a:hover { background-color: #ddd; }
+
 /* The dropdown container */
 .dropdown { float: left; overflow: hidden; }
 
