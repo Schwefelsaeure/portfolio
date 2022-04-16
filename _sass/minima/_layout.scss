@@ -43,6 +43,11 @@
   float: left;
 }
 
+/* Add a grey background color to dropdown links on hover */
+.navbar a:hover {
+  background-color: #ddd;
+}
+
 /* The dropdown container */
 .dropdown {
   float: left;
