@@ -15,4 +15,4 @@ mv -t . ../_site/*
 git add -A .
 rm -r ../_site
 
-echo "Changes on \"main\": $(git show -s --format=%s)"
+echo "Changes on \"main\": $(git show -s --format=%s main)"
