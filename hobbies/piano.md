@@ -1,5 +1,5 @@
 ---
-layout: piano
+layout: hobbies_piano
 title: Playing the Piano
 permalink: /hobbies/piano/
 ---

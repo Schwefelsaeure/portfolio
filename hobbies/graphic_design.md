@@ -1,5 +1,5 @@
 ---
-layout: graphic_design
+layout: hobbies_graphic_design
 title: Graphic Design
 permalink: /hobbies/graphic-design/
 ---

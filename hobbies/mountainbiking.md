@@ -1,5 +1,5 @@
 ---
-layout: mountainbiking
+layout: hobbies_mountainbiking
 title: Mountainbiking
 permalink: /hobbies/mountainbiking/
 ---

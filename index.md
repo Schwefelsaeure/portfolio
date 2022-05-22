@@ -9,7 +9,12 @@ layout: home
 
 Hi, I am Benedikt and I studied computer science.
 
-Use this site to learn more about me, my hobbies and some of my software projects.
+Use this site to learn more about me, my hobbies and some of my software projects. I am...
+
+- **a passionate software engineer caring about clean software architectures.**
+- **an enthusiastic clean coder focused on TDD and CI/CD.**
+- **an open source and GNU/Linux evangelist.**
+- **interested in physics and electrical engineering.**
 
 # Learning is the fun part of life
 

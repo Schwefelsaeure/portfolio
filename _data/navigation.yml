@@ -3,6 +3,11 @@
 
 - title: Projects
   url: /projects/
+  sublinks:
+    - title: Theses
+      url: /projects/theses/
+    - title: GitHub
+      url: /projects/github/
 
 - title: Hobbies
   url: /hobbies/
@@ -10,9 +15,9 @@
     - title: Piano
       url: /hobbies/piano/
     - title: Mountainbiking
-      url: /hobbies/mountainbiking
+      url: /hobbies/mountainbiking/
     - title: Graphic Design
-      url: /hobbies/graphic-design
+      url: /hobbies/graphic-design/
 
 - title: Posts
   url: /posts/
