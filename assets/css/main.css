@@ -51,6 +51,12 @@ pre { padding: 8px 12px; overflow-x: auto; }
 
 pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
+.skill { border: 2px solid #a5a5a5; border-radius: 4px; color: #a5a5a5; padding: 1px 4px; }
+
+.skill-list { list-style-type: none; margin: 0; padding: 0; }
+
+.skill-list li { border: 2px solid #a5a5a5; border-radius: 4px; color: #a5a5a5; display: inline-block; padding: 1px 4px; }
+
 /** Wrapper */
 .wrapper { max-width: -webkit-calc(800px - (30px * 2)); max-width: calc(800px - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
 
