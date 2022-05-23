@@ -1,23 +1,23 @@
 - title: CV
-  url: /cv/
+  url: /cv
 
 - title: Projects
   url: /projects/
   sublinks:
     - title: Theses
-      url: /projects/theses/
+      url: /projects/theses
     - title: GitHub
-      url: /projects/github/
+      url: /projects/github
 
 - title: Hobbies
   url: /hobbies/
   sublinks:
     - title: Piano
-      url: /hobbies/piano/
+      url: /hobbies/piano
     - title: Mountainbiking
-      url: /hobbies/mountainbiking/
+      url: /hobbies/mountainbiking
     - title: Graphic Design
-      url: /hobbies/graphic-design/
+      url: /hobbies/graphic-design
 
 - title: Posts
   url: /posts/

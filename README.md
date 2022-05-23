@@ -8,4 +8,4 @@ Brought to you by [GitHub Pages](https://pages.github.com/) and [Jekyll](https:/
 
 ```bash
 code . && bundle exec jekyll serve --livereload
-``
+```
