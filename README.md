@@ -6,6 +6,16 @@ Brought to you by [GitHub Pages](https://pages.github.com/) and [Jekyll](https:/
 
 ## Getting started
 
+### Editing
+
 ```bash
 code . && bundle exec jekyll serve --livereload
+```
+
+### Deploying
+
+```bash
+build_and_git_add.sh
+git commit -m <last_line_from_build_and_git_add.sh>
+git checkout master
 ```
