@@ -13,18 +13,22 @@
           {% endif %}
 
           {% if link.sublinks %}
-            <div class="dropdown">
-              <button class="dropbtn">{{ link.title }}
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-content">
-                {% for sublink in link.sublinks %}
-                  <a href="{{ site.url }}{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
-                {% endfor %}
-              </div>
+          <div class="dropdown">
+            <button class="dropbtn">{{ link.title }}
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              {% for sublink in link.sublinks %}
+                <a href="{{ site.url }}{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
+              {% endfor %}
             </div>
+          </div>
           {% else %}
+          <!-- Use the same CSS class to ensure that top-level and sublinks are formatted equally. -->
+          <!-- TODO: Check if this hack is displayed properly in MS Edge! -->
+          <div class="dropdown">
             <a class="{{ class }}" href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+          </div>
           {% endif %}
       {% endfor %}
     </nav>
