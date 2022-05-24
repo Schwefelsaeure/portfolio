@@ -111,9 +111,6 @@ table td { border: 1px solid #e8e8e8; }
 /* Links inside the dropdown */
 .dropdown-content a { float: none; padding: 12px 16px; text-decoration: none; display: block; text-align: left; }
 
-/* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover { background-color: #ddd; }
-
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content { display: block; }
 
