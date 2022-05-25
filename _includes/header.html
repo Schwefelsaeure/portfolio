@@ -13,6 +13,7 @@
           {% endif %}
 
           {% if link.sublinks %}
+          <!-- Note: Class "dropdown" and "a" tags should use the same padding and margin settings! -->
           <div class="dropdown">
             <button class="dropbtn">{{ link.title }}
               <i class="fa fa-caret-down"></i>
@@ -24,11 +25,7 @@
             </div>
           </div>
           {% else %}
-          <!-- Use the same CSS class to ensure that top-level and sublinks are formatted equally. -->
-          <!-- TODO: Check if this hack is displayed properly in MS Edge! -->
-          <div class="dropdown">
-            <a class="{{ class }}" href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
-          </div>
+          <a class="{{ class }}" href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
           {% endif %}
       {% endfor %}
     </nav>
