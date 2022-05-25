@@ -1,6 +1,6 @@
 # README
 
-A private website to show my portfolio as software engineer.
+A private website to show my portfolio as software engineer. Go to: https://schwefelsaeure.github.io/portfolio/
 
 Brought to you by [GitHub Pages](https://pages.github.com/) and [Jekyll](https://jekyllrb.com/).
 
