@@ -16,6 +16,7 @@ code . && bundle exec jekyll serve --livereload
 
 ```bash
 ./build_and_git_add.sh
-git commit -m <last_line_from_build_and_git_add.sh>
+git commit -m <last_line_from_build_and_git_add.sh> # Hint: The script checks out the "site" branch automatically.
+git push
 git checkout main
 ```
