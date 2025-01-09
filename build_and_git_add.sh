@@ -3,6 +3,8 @@
 # Switch to "main" branch, clean the directory from Jekyll artifacts,
 # build the site in the upper directory, switch to "site" branch and add build artifacts there.
 
+set -e
+
 git checkout main
 git reset --hard HEAD
 
