@@ -12,6 +12,13 @@ Brought to you by [GitHub Pages](https://pages.github.com/) and [Jekyll](https:/
 code . && bundle exec jekyll serve --livereload
 ```
 
+### Git versioning
+
+```bash
+git add .
+git commit -m "Describe changes clean and concise..."
+```
+
 ### Deployment
 
 ```bash
