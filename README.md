@@ -16,7 +16,7 @@ code . && bundle exec jekyll serve --livereload
 
 ```bash
 git add .
-git commit -m "Describe changes clean and concise..."
+git commit -m "Describe changes cleanly and concisely..."
 ```
 
 ### Deployment

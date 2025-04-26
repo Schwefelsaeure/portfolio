@@ -1,0 +1,13 @@
+{
+ "name" : "example",
+ "description" : "",
+ "release" : "0.10",
+ ...
+ "scenario" : {
+  ...
+  "topography" : {
+    "obstacles" : [...],
+    "stairs" : [...],
+    ...
+ }
+}

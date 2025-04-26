@@ -1,0 +1,54 @@
+@startuml
+
+' -----------------------------------------------------------------------------
+' Classes
+' -----------------------------------------------------------------------------
+
+interface ICognitionModel {
+  // No member variables
+  --
+  + void initialize(Topography topography)
+  + update(Collection<Agent> agents)
+}
+
+class CooperativeCognitionModel {
+  - Topography topography
+  --
+  + void initialize(Topography topography)
+  + void update(Collection<Agent> agents)
+}
+
+class OtherCognitionModel {
+  // Variables...
+  --
+  // Methods...
+}
+
+class "..." as AnotherClass {
+  ...
+  --
+  ...
+}
+
+' -----------------------------------------------------------------------------
+' Relations
+' -----------------------------------------------------------------------------
+
+ICognitionModel <|-- CooperativeCognitionModel
+ICognitionModel <|-- OtherCognitionModel
+ICognitionModel <|-- AnotherClass
+
+' -----------------------------------------------------------------------------
+' Notes
+' -----------------------------------------------------------------------------
+
+note bottom of OtherCognitionModel
+  The **CooperativeCognitionModel** uses the ranked
+  stimuli from the perception sub-layer and uses
+  additional information (e.g., the average speed
+  of the last //n// time steps) to decide which behavior
+  to use next. Later on, the locomotion layer can retrieve
+  the information from the cognition sub-layer.
+end note
+
+@enduml 

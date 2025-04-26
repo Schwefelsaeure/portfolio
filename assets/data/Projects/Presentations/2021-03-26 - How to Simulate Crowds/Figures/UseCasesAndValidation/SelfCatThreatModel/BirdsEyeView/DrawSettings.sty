@@ -1,0 +1,28 @@
+\RequirePackage{luatex85}
+\documentclass{standalone}
+\usepackage{tikz}
+
+% Color Definitions
+\definecolor{SourceColor}{RGB}{85,168,104}
+\definecolor{TargetColor}{RGB}{221,132,82}
+\definecolor{TargetChangerColor}{RGB}{255,153,0}
+\definecolor{AbsorbingAreaColor}{RGB}{196,78,82}
+\definecolor{ObstacleColor}{RGB}{179,179,179}
+\definecolor{StairColor}{RGB}{129,114,178}
+\definecolor{MeasurementAreaColor}{RGB}{255,0,0}
+\definecolor{AgentColor}{RGB}{76,114,202}
+\definecolor{AgentIdColor}{RGB}{255,127,0}
+
+\newcommand{\MeasurementAreaOpacity}{0.549020}
+
+\begin{document}
+% Change scaling to [x=1mm,y=1mm] if TeX reports "Dimension too large".
+\begin{tikzpicture}
+[x=1cm,y=1cm,
+trajectory/.style={line width=8, opacity=1.0},
+pedestrian/.style={circle, fill=AgentColor, minimum size=0.780000 cm},
+walkdirection/.style={black, line width=1},
+selected/.style={draw=magenta, line width=2},
+group/.style={},
+voronoi/.style={black, line width=1}
+]

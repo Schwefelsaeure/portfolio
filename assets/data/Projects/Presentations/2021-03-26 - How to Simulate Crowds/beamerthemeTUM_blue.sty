@@ -1,0 +1,127 @@
+\ProvidesPackage{beamerthemeTUM_blue}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Configure colors
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% From official TUM LaTeX template
+\xdefinecolor{TUMBlau}{RGB}{0,101,189} % Pantone 300
+\xdefinecolor{TUMBlauDunkel}{RGB}{0,82,147} % Pantone 301
+\xdefinecolor{TUMBlauHell}{RGB}{152,198,234} % Pantone 283
+\xdefinecolor{TUMBlauMittel}{RGB}{100,160,200} % Pantone 542
+
+\xdefinecolor{TUMElfenbein}{RGB}{218,215,203} % Pantone 7527 -Elfenbein
+\xdefinecolor{TUMGruen}{RGB}{162,173,0} % Pantone 383 - Grün
+\xdefinecolor{TUMOrange}{RGB}{227,114,34} % Pantone 158 - Orange
+\xdefinecolor{TUMGrau}{gray}{0.6} % Grau 60%
+
+\xdefinecolor{hmred}{RGB}{252, 85, 85}
+\xdefinecolor{hmredOLD}{RGB}{196, 7, 27}
+
+\xdefinecolor{mygreen}{rgb}{0,0.6,0}
+\xdefinecolor{mygray}{rgb}{0.5,0.5,0.5}
+\xdefinecolor{mymauve}{rgb}{0.58,0,0.82}
+\xdefinecolor{myblue}{rgb}{0.2980392156862745, 0.4470588235294118, 0.6901960784313725}
+\xdefinecolor{mygreen}{rgb}{0.1333333333333333, 0.5588235294117647, 0.10784313725490196}
+\xdefinecolor{myred}{rgb}{0.7686274509803922, 0.3058823529411765, 0.3215686274509804}
+
+\setbeamercolor{normal text}{fg=black,bg=white}
+\setbeamercolor{alerted text}{fg=TUMOrange,bg=white}
+\setbeamercolor{example text}{fg=TUMGruen,bg=white}
+\setbeamercolor{structure}{fg=TUMBlau,bg=white}
+\setbeamercolor{titlelike}{fg=TUMBlau}
+\setbeamercolor{subtitle}{fg=black}
+
+\setbeamercolor{block title}        {use=structure}
+\setbeamercolor{block title alerted}{use=alerted text,fg=white,bg=alerted text.fg}
+\setbeamercolor{block title example}{use=example text,fg=white,bg=example text.fg}
+\setbeamercolor{block title example}{use=example text}
+\setbeamercolor{block algorithm}{use=example text, fg=black,bg=TUMElfenbein}
+
+\setbeamercolor{block body}        {parent=normal text,use=block title,        bg=block title.bg!25!bg}
+\setbeamercolor{block body alerted}{parent=normal text,use=block title alerted,bg=block title.bg!25!bg}
+\setbeamercolor{block body example}{parent=normal text,use=block title example,bg=block title example.bg!15!bg}
+
+\setbeamercolor*{item}{fg=TUMBlau}
+\setbeamercolor*{figure}{fg=TUMBlau}
+\setbeamercolor{caption}{}
+\setbeamercolor{caption name}{fg=TUMBlau}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Configure beamer elements
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\useoutertheme{split}
+
+\addtobeamertemplate{block begin}{\setlength\abovedisplayskip{0pt}}
+
+\setbeamertemplate{sections/subsections in toc}[default]
+\setbeamertemplate{navigation symbols}[only frame symbol]
+\setbeamertemplate{blocks}[default]
+
+\setbeamertemplate{items}[default]
+\setbeamertemplate{itemize item}[circle]
+\setbeamertemplate{itemize subitem}[triangle]
+\setbeamertemplate{itemize subsubitem}[square]
+% \setbeamertemplate{enumerate item}{<choice>}
+% \setbeamertemplate{enumerate subitem}{<choice>}
+% \setbeamertemplate{enumerate subsubitem}{<choice>}
+
+\setbeamertemplate{itemize/enumerate body begin}{\small}
+\setbeamertemplate{itemize/enumerate subbody begin}{\footnotesize}
+\setbeamertemplate{itemize/enumerate subsubbody begin}{\scriptsize}
+
+\setbeamercovered{transparent}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Configure fonts
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% See Beamer Guide p. 201-202 and fntguide package (https://ctan.org/pkg/fntguide)
+\setbeamerfont{title}{series=\bfseries}
+\setbeamerfont{subtitle}{series=\mdseries}
+\setbeamerfont{author}{series=\bfseries}
+\setbeamerfont{institute}{size=\footnotesize,series=\mdseries}
+\setbeamerfont{date}{size=\footnotesize,series=\mdseries}
+\setbeamerfont{frametitle}{size=\fontsize{11}{13},series=\bfseries}
+
+\setbeamerfont{body text}{size=\normalsize}
+\setbeamerfont{block title}{series=\bfseries}
+\setbeamerfont{block body}{parent={body text}}
+\setbeamerfont{caption}{size=\tiny} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Configure title page, header, footer and main content area
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\defbeamertemplate*{title page}{customized}[1][]{%
+  \hfill\insertlogo\par
+  \vspace{\baselineskip}
+  \usebeamerfont{title}\inserttitle\par
+  \usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par
+  \bigskip
+  \usebeamerfont{author}\insertauthor\par
+  \usebeamerfont{institute}\insertinstitute\par
+  \usebeamerfont{date}\insertdate\par
+  \vspace{2\baselineskip}
+  \hfill\includegraphics[width=7cm]{\inserttitlegraphic}
+}
+
+\setbeamertemplate{headline}{}
+
+\setbeamertemplate{frametitle}{
+	\begin{beamercolorbox}[wd=85mm,leftskip=0mm]{frametitle}
+		\usebeamerfont*{frametitle}
+		\insertframetitle\hfill\parbox{5mm}{\vspace{-2mm}\insertlogo}\hspace{-20mm}
+	\end{beamercolorbox}
+	\vspace{-3mm}\textcolor{TUMBlau}{\noindent\rule{\textwidth}{0.4px}}
+}
+
+\defbeamertemplate*{footline}{infolines theme}{%
+    \hspace*{\Gm@lmargin}%
+    \vspace{2mm}%
+	\insertnavigation{0.8\paperwidth}\hfill%
+    \tiny\insertframenumber{}/\inserttotalframenumber%
+}
+
+\setbeamertemplate{sidebar right}{\vfill\vskip2pt\llap{\usebeamertemplate***{navigation symbols}\hskip1mm}\vskip2pt}
