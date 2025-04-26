@@ -2,15 +2,17 @@
   url: /cv
 
 - title: Projects
-  url: /projects/
+  url: /projects
   sublinks:
     - title: Theses
       url: /projects/theses
+    - title: Work
+      url: /projects/work
     - title: GitHub
       url: /projects/github
 
 - title: Hobbies
-  url: /hobbies/
+  url: /hobbies
   sublinks:
     - title: Piano
       url: /hobbies/piano
@@ -20,4 +22,4 @@
       url: /hobbies/graphic-design
 
 - title: Posts
-  url: /posts/
+  url: /posts

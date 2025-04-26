@@ -1,0 +1,24 @@
+{
+  "name" : "Sample Scenario",
+  ...
+  "scenario" : {
+    "mainModel" : "...OptimalStepsModel",
+    ...
+    "attributesSimulation" : { },
+    "topography" : {
+      ...
+      "obstacles" : [ ... ],
+      "stairs" : [ ... ],
+      "targets" : [ ...  ],
+      "sources" : [ ... ],
+      "dynamicElements" : [ ],
+      "attributesPedestrian" : {
+        "radius" : 0.195,
+        "speedDistributionMean" : 1.34,
+        "speedDistributionStandardDeviation" : 0.26,
+        ...
+      },
+      ...
+    }
+  }
+}
