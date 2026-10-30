@@ -7,6 +7,8 @@ layout: home
 
 # Intro
 
+[![Portrait photo]({% link /assets/data/CV/Images/2020-01-01.jpg %}){: width="100" }]({% link /assets/data/CV/Images/2020-01-01.jpg %})
+
 Hi, I am Benedikt and I studied computer science.
 
 Use this site to learn more about me, my hobbies and some of my software projects. I am...
