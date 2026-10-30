@@ -273,3 +273,13 @@ table {
     border: 1px solid $grey-color-light;
   }
 }
+
+/**
+ * User-defined styles
+ */
+.profile-photo {
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  border-radius: 4px; /* Optional: leicht abgerundete Ecken passend zum Design */
+}
